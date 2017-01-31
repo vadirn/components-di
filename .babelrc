@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "react-app",
+    ["env", {
+      "useBuiltIns": true,
+      "debug": false,
+      "targets": {
+        "browsers": ["last 3 versions"]
+      }
+    }]
+  ]
+}

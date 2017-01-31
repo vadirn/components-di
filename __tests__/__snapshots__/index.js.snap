@@ -1,0 +1,35 @@
+exports[`Dependency injection should allow multiple injections 1`] = `
+<div>
+  bar foo
+</div>
+`;
+
+exports[`Dependency injection should inject actions list and allow its usage 1`] = `
+<div>
+  bar foo
+</div>
+`;
+
+exports[`Dependency injection should inject context and allow its usage 1`] = `
+<div>
+  bar
+</div>
+`;
+
+exports[`Dependency injection should keep actions list structure 1`] = `
+<div>
+  bar foo
+</div>
+`;
+
+exports[`Dependency injection should preserve original props 1`] = `
+<div>
+  bar
+</div>
+`;
+
+exports[`Dependency injection should use default mapper if no mapper provided 1`] = `
+<div>
+  bar foo
+</div>
+`;
