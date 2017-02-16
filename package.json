@@ -8,7 +8,7 @@
     "type": "git"
   },
   "scripts": {
-    "test": "jest"
+    "test": "export BABEL_ENV=test && jest"
   },
   "author": "Vadim Kotov <igeeko@gmail.com>",
   "license": "MIT",
@@ -26,14 +26,12 @@
     "babel-core": "^6.21.0",
     "babel-eslint": "^7.1.1",
     "babel-jest": "^18.0.0",
-    "babel-plugin-react-require": "^3.0.0",
-    "babel-plugin-transform-react-constant-elements": "^6.9.1",
-    "babel-plugin-transform-react-inline-elements": "^6.8.0",
-    "babel-polyfill": "^6.20.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "babel-preset-react-app": "^2.0.1",
-    "babel-preset-stage-2": "^6.18.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
     "babel-register": "^6.18.0",
     "hoist-non-react-statics": "^1.2.0",
     "react": "^15.4.2",
