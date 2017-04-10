@@ -1,3 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`Dependency injection should allow multiple injections 1`] = `
 <div>
   bar foo
