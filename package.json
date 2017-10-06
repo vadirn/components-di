@@ -1,6 +1,6 @@
 {
   "name": "components-di",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Dependency-injection for react components",
   "main": "index.js",
   "repository": {
@@ -33,6 +33,7 @@
     "babel-preset-env": "^1.5.2"
   },
   "peerDependencies": {
+    "react": "*",
     "hoist-non-react-statics": "*",
     "prop-types": "*"
   }
